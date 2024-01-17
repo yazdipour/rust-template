@@ -23,7 +23,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "rustc --version",
+	"postCreateCommand": "rustc --version",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -34,7 +34,10 @@
 				"EditorConfig.EditorConfig",
 				"GitHub.copilot",
 				"formulahendry.code-runner",
-				"1YiB.rust-bundle"
+				"VisualStudioExptTeam.vscodeintellicode",
+				"1YiB.rust-bundle",
+				"Zdaskx.rust-extension-pack",
+				"usernamehw.errorlens"
 			]
 		}
 	}
